@@ -1,0 +1,35 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+ 
+body, input {
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+	font-size: 20px;
+	-webkit-font-smoothing: antialiased; 
+	overflow: hidden;
+}
+  
+
+#app_bg{
+	position: absolute;
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	background-color: #FFD14D;
+	text-align: center;
+}
+#app_container{
+	background-image: url("../img/rigveda/launch.png");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: contain;
+	width: 50%;
+	height: 70%;
+	margin: 9.5% auto;
+}
+
+.r{
+	background-color: #FF004D;
+}
