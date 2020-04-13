@@ -2,6 +2,9 @@
   padding:0px;
   margin:0px;
 }
+*:focus {
+    outline: none;
+}
  
 body, input {
 	font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
@@ -17,8 +20,12 @@ body, input {
 	right:0px;
 	top:0px;
 	bottom:0px;
+	
 	background-color: #FFD14D;
 	text-align: center;
+}
+video{
+	box-shadow: 5px 5px 50px 20px #fff;
 }
 #app_container{
 	background-image: url("../img/rigveda/launch.png");

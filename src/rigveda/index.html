@@ -18,8 +18,15 @@
 
   <div id="app_bg">
       <div id="app_container">
-      
+      <video id="vid" height="100%"  autoplay>
+        <source src="../vid/rigveda.mp4" type="video/mp4">
+        
+      </video>
+
       </div>
+      <a href="https://apps.apple.com/us/app/rigveda/id1480430857">
+            <img border="0" alt="W3Schools" src="../img/app-store-badge/512x512.png" width="100" height="100">
+      </a>
   </div>
 
   </main>
@@ -38,7 +45,17 @@
 
 
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+<script>
+    var promise = document.querySelector('video').play();
 
+if (promise !== undefined) {
+  promise.then(_ => {
+    // Autoplay started!
+  }).catch(error => {
+     vid.setAttribute("controls","controls")   
+  });
+}
+</script>
 </body>
 
 </html>
